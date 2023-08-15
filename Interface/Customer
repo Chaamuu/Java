@@ -1,0 +1,21 @@
+interface customer
+{
+    int amt=5;
+    void purchase();
+}
+class sellerRaju implements customer
+{
+   
+    public void purchase()
+    {
+        System.out.println("raju purchase "+amt+" kg rice");
+    }
+}
+class check
+{
+    public static void main(String[] args){
+        customer c=new sellerRaju();
+        c.purchase();
+        System.out.println(customer.amt);
+    }
+}
