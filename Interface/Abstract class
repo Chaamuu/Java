@@ -1,0 +1,27 @@
+interface client
+{
+void webdesign();
+void webdevelop();
+}
+abstract class Rajtech implements client
+{
+    public void webdesign()
+    {
+        System.out.println("web design part");
+    }
+}
+ class Rahultech extends Rajtech
+{
+    public void webdevelop()
+    {
+        System.out.println("web development part");
+    }
+}
+class check
+{
+    public static void main(String[] args){
+        Rahultech r=new Rahultech();
+        r.webdesign();
+        r.webdevelop();
+    }
+}
