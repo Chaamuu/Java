@@ -1,0 +1,31 @@
+public class main{
+    public static void main(String[] args) {
+        String name1="suraj";
+        String name2="maggie";
+        
+        if(name1==name2)
+        {
+            System.out.println("names are equal");
+        }
+        else{
+            System.out.println("names are not equal");
+        }
+    }
+}
+
+
+##
+public class main{
+    public static void main(String[] args) {
+        int a=90;
+        int b=56;
+        
+        if(a>b)
+        {
+            System.out.println("a is greater");
+        }
+        else{
+            System.out.println("b is greater");
+        }
+    }
+}
