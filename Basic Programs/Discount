@@ -1,0 +1,17 @@
+public class main {
+    public static void main(String[] args) {
+        
+       int total_bill=789;
+       
+       if(total_bill>1000){
+           System.out.println("20% discount offered");
+       }
+       else if(total_bill>500){
+           System.out.println("10% discount offered");
+       }
+       else{
+           System.out.println("No discount");
+       }
+        
+    }
+}
