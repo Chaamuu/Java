@@ -1,0 +1,18 @@
+public class main {
+    public static void main(String[] args) {
+    for(int i=1;i<=10;i=i*2){
+        System.out.println(i);
+    }
+    }
+}
+
+##outpt on single line
+public class main {
+    public static void main(String[] args) {
+       String bag="";
+       for(int i=1;i<=10;i=i*2){
+           bag=bag+i+" ";
+       }
+       System.out.print(bag);
+    }
+}
